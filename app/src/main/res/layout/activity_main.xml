@@ -26,24 +26,24 @@
         android:id="@+id/search_music"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
-        android:text="搜索音乐" />
+        android:text="@string/search_music_text" />
 
     <TextView
         android:id="@+id/native_music"
         style="@style/CategoryStyle"
         android:background="@color/category_family"
-        android:text="本地音乐" />
+        android:text="@string/localmusic_text" />
 
     <TextView
         android:id="@+id/online_music"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
-        android:text="在线乐库" />
+        android:text="@string/onlinmusic_text" />
 
     <TextView
         android:id="@+id/playing_music"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
-        android:text="正在播放" />
+        android:text="@string/nowplaying_text" />
 
 </LinearLayout>

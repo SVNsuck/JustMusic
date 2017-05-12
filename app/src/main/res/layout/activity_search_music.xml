@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.justmusic.searchMusicActivity">
+    tools:context="com.example.android.justmusic.SearchMusicActivity">
 
     <TextView
         android:id="@+id/search_music"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
         android:text="这个Acitivity是用于搜索音乐的页面" />
-</android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/search_nowPlaying_button"
+        style="@style/CategoryStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/category_phrases"
+        android:text="@string/nowplaying_text" />
+</LinearLayout>

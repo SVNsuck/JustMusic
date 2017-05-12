@@ -16,10 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".searchMusicActivity"  />
-        <activity android:name=".playingMusicActivity" />
-        <activity android:name=".nativeMusicActivity"  />
-        <activity android:name=".onlineMusicActivity" />
+        <activity android:name=".SearchMusicActivity"  />
+        <activity android:name=".PlayingMusicActivity" />
+        <activity android:name=".NativeMusicActivity"  />
+        <activity android:name=".OnlineMusicActivity" />
     </application>
 
 </manifest>

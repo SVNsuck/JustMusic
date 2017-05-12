@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent searchMusicIntent = new Intent(MainActivity.this, searchMusicActivity.class);
+                Intent searchMusicIntent = new Intent(MainActivity.this, SearchMusicActivity.class);
                 startActivity(searchMusicIntent);
             }
         });
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent nativeMusicIntent = new Intent(MainActivity.this, nativeMusicActivity.class);
+                Intent nativeMusicIntent = new Intent(MainActivity.this, NativeMusicActivity.class);
                 startActivity(nativeMusicIntent);
             }
         });
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent onlineMusicIntent = new Intent(MainActivity.this, onlineMusicActivity.class);
+                Intent onlineMusicIntent = new Intent(MainActivity.this, OnlineMusicActivity.class);
                 startActivity(onlineMusicIntent);
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent playingMusicIntent = new Intent(MainActivity.this, playingMusicActivity.class);
+                Intent playingMusicIntent = new Intent(MainActivity.this, PlayingMusicActivity.class);
                 startActivity(playingMusicIntent);
             }
         });

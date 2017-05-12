@@ -11,4 +11,9 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+    <string name="search_music_text">搜索音乐</string>
+    <string name="localmusic_text">本地音乐</string>
+    <string name="onlinmusic_text">在线乐库</string>
+    <string name="nowplaying_text">正在播放</string>
+    <string name="backhome_text">回到主页</string>
 </resources>
